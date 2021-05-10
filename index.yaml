@@ -3,7 +3,27 @@ entries:
   node-application-server:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2021-05-10T00:22:38.497921097-03:00"
+    created: "2021-05-10T00:53:16.161930112-03:00"
+    description: My awesome node application!
+    digest: 42657b1992508a3eca274492158cb3b8022a716f54bf2bcb48f8ed5fee55bc50
+    home: http://my-first-app.com
+    icon: http://helm/icon.png
+    keywords:
+    - awesome-app
+    - hello-world
+    maintainers:
+    - email: luisbattle@gmail.com
+      name: Luis Batalla
+    name: node-application-server
+    sources:
+    - https://github.com/NodeJs_Sonar_Tekton_example
+    - https://hub.docker.com/repository/docker/lbatalla/my-nodejs-app
+    urls:
+    - https://github.com/luisbattle/helm-chart/node-application-server-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2021-05-10T00:53:16.162243823-03:00"
     description: My awesome node application!
     digest: c646a1f73c336b78e4c8cd651ebd9e988706d32c13b30f5de88be05f5ebce037
     home: http://my-first-app.com
@@ -21,4 +41,4 @@ entries:
     urls:
     - https://github.com/luisbattle/helm-chart/chart/node-application-server-1.0.0.tgz
     version: 1.0.0
-generated: "2021-05-10T00:22:38.497473285-03:00"
+generated: "2021-05-10T00:53:16.161428346-03:00"
