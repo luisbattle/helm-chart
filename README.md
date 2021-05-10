@@ -8,7 +8,7 @@ echo -e “User-Agent: *\nDisallow: /” > robots.txt
 
 ## Lint the chart
 helm lint runs a series of tests to verify that
-the chart is well-formed:
+the chart is well-formed
 <pre>
 helm lint chart/
 ==> Linting chart/
