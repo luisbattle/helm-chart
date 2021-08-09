@@ -25,6 +25,14 @@ Successfully packaged chart and saved it to: /repositories/helm-chart/node-appli
 
 ## add helm repo from github
 <pre>
-helm repo add myhelmrepo 'https://raw.github.com/kmzfs/helm-repo-in-github/master'
+helm repo add myhelmrepo ''https://raw.github.com/luisbattle/helm-chart/master''
 "myhelmrepo" has been added to your repositories
+</pre>
+
+## search repo
+<pre>
+helm search repo 
+NAME                              	CHART VERSION	APP VERSION	DESCRIPTION                 
+myhelmrepo/node-application-server	1.0.0        	1.0.0      	My awesome node application!
+
 </pre>
